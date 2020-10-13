@@ -1,11 +1,10 @@
-/**
-* DevExpress HTML/JS Analytics Core (dx-analytics.contrast.css)
-* Version: 19.2.4
-* Build date: 2019-11-19
-* Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
-* License: https://www.devexpress.com/Support/EULAs/NetComponents.xml
+﻿/**
+* DevExpress Analytics (dist\css\dx-analytics.contrast.css)
+* Version:  20.2.2-beta
+* Build date: Sep 29, 2020
+* Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
+* License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
-
 .dx-designer-viewport {
   /* Borders -------------------------*/
   /* Icons -------------------------*/
@@ -16,22 +15,22 @@
   /* DevExtreme -------------------------*/
 }
 .dx-designer-viewport .dxd-border-primary {
-  border-color: #ffffff;
+  border-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-border-secondary {
-  border-color: #ffffff;
+  border-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-border-accented {
-  border-color: #3806ff;
+  border-color: #3806FF;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-border-primary {
   border-color: #000000;
 }
 .dx-designer-viewport .dxd-icon-accented .dxd-icon-fill {
-  fill: #3806ff;
+  fill: #3806FF;
 }
 .dx-designer-viewport .dxd-icon-fill {
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-icon-fill {
   fill: #000000;
@@ -41,13 +40,13 @@
   fill: #000000;
 }
 .dx-designer-viewport .dxd-text-primary {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-text-info {
-  color: #cf00d7;
+  color: #CF00D7;
 }
 .dx-designer-viewport .dxd-text-accented {
-  color: #3806ff;
+  color: #3806FF;
 }
 .dx-designer-viewport .dxd-state-active .dxd-text-primary,
 .dx-designer-viewport .dxd-back-contrast .dxd-text-primary {
@@ -60,48 +59,48 @@
   background-color: #000000;
 }
 .dx-designer-viewport .dxd-back-secondary {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-normal:hover:not(.dxd-state-no-hover) {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted:hover:not(.dxd-state-no-hover) {
   background-color: #363636;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected,
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected:hover {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active {
   background-color: #000000;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active:hover:not(.dxd-state-no-hover) {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-contrast {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active:hover,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-accented {
-  background-color: #3806ff;
+  background-color: #3806FF;
 }
 .dx-designer-viewport .dxd-scrollbar-color {
-  scrollbar-face-color: #ffffff;
+  scrollbar-face-color: #FFFFFF;
   scrollbar-track-color: #000000;
-  scrollbar-arrow-color: #ffffff;
-  -ms-scrollbar-face-color: #ffffff;
+  scrollbar-arrow-color: #FFFFFF;
+  -ms-scrollbar-face-color: #FFFFFF;
   -ms-scrollbar-track-color: #000000;
-  -ms-scrollbar-arrow-color: #ffffff;
+  -ms-scrollbar-arrow-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-corner {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-thumb {
   background-color: #000000;
@@ -117,19 +116,19 @@
 .dx-designer-viewport .dx-expressioneditor-textarea.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-filtereditor-ace.ace_editor .ace_gutter {
   background-color: #363636;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab {
   background-color: #000000;
   border-color: #000000;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab:hover {
   background-color: #363636;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-icon {
-  color: #cf00d7;
+  color: #CF00D7;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected {
   color: #000000;
@@ -185,13 +184,14 @@
   background-color: transparent;
 }
 .dx-filtereditor .dxd-filter-editor-text-color {
-  color: #ffffff;
+  color: #fff;
+  fill: #fff;
 }
 .dx-filtereditor .dxd-filter-editor-text-color.dxd-state-selected {
-  color: #ffffff;
+  color: #fff;
 }
 .dx-filtereditor .dxd-state-selected .dxd-filter-editor-text-color {
-  color: #ffffff;
+  color: #fff;
 }
 .dx-filtereditor .dxd-filter-editor-add-icon-fill-color {
   fill: #008709;
@@ -204,40 +204,40 @@
   stroke: #000000;
 }
 .dx-querybuilder .dxdd-connector.dxd-state-selected .dxd-qb-relationship-line-color {
-  stroke: #3806ff;
+  stroke: #3806FF;
 }
 /* Wizard -------------------------*/
 .dx-designer-viewport .dxd-back-secondary {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dx-background-inheritor.dxd-back-highlighted .dxd-back-secondary {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-normal:hover:not(.dxd-state-no-hover) {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-highlighted:hover:not(.dxd-state-no-hover) {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected:hover {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active:hover:not(.dxd-state-no-hover) {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover .dxd-icon-fill,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active .dxd-icon-fill {
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor),
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) {
@@ -257,7 +257,7 @@
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-button,
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor) .dx-overlay-content,
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-overlay-content {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor):hover:not(.dxd-state-no-hover) .dxd-text-primary,
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor):hover:not(.dxd-state-no-hover) .dxd-text-primary,
@@ -265,7 +265,7 @@
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-button .dxd-text-primary,
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor) .dx-overlay-content .dxd-text-primary,
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-overlay-content .dxd-text-primary {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor):hover:not(.dxd-state-no-hover) .dxd-icon-fill,
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor):hover:not(.dxd-state-no-hover) .dxd-icon-fill,
@@ -273,18 +273,18 @@
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-button .dxd-icon-fill,
 .dx-designer-viewport .dxd-state-selected:not(.dx-background-inheritor) .dx-overlay-content .dxd-icon-fill,
 .dx-designer-viewport .dxd-state-active:not(.dx-background-inheritor) .dx-overlay-content .dxd-icon-fill {
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab {
-  border-color: #ffffff;
+  border-color: #FFFFFF;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab:hover {
-  background-color: #cf00d7;
+  background-color: #CF00D7;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected,
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected:hover {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 .dx-querybuilder .dxd-qb-relationship-line-color {
-  stroke: #ffffff;
+  stroke: #FFFFFF;
 }

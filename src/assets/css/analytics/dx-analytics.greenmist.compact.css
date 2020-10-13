@@ -1,11 +1,10 @@
-/**
-* DevExpress HTML/JS Analytics Core (dx-analytics.greenmist.compact.css)
-* Version: 19.2.4
-* Build date: 2019-11-19
-* Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
-* License: https://www.devexpress.com/Support/EULAs/NetComponents.xml
+﻿/**
+* DevExpress Analytics (dist\css\dx-analytics.greenmist.compact.css)
+* Version:  20.2.2-beta
+* Build date: Sep 29, 2020
+* Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
+* License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
-
 .dx-designer-viewport {
   /* Borders -------------------------*/
   /* Icons -------------------------*/
@@ -16,130 +15,130 @@
   /* DevExtreme -------------------------*/
 }
 .dx-designer-viewport .dxd-border-primary {
-  border-color: #e3e3e3;
+  border-color: #E3E3E3;
 }
 .dx-designer-viewport .dxd-border-secondary {
-  border-color: #dedede;
+  border-color: #DEDEDE;
 }
 .dx-designer-viewport .dxd-border-accented {
-  border-color: #3cbab2;
+  border-color: #3CBAB2;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-border-primary {
-  border-color: #a0bec4;
+  border-color: #A0BEC4;
 }
 .dx-designer-viewport .dxd-icon-accented .dxd-icon-fill {
-  fill: #3cbab2;
+  fill: #3CBAB2;
 }
 .dx-designer-viewport .dxd-icon-fill {
-  fill: #5e7b82;
+  fill: #5E7B82;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-icon-fill {
-  fill: #a0bec4;
+  fill: #A0BEC4;
 }
 .dx-designer-viewport .dxd-state-active .dxd-icon-fill,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover .dxd-icon-fill {
-  fill: #f5f5f5;
+  fill: #F5F5F5;
 }
 .dx-designer-viewport .dxd-text-primary {
-  color: #28484f;
+  color: #28484F;
 }
 .dx-designer-viewport .dxd-text-info {
-  color: #405b62;
+  color: #405B62;
 }
 .dx-designer-viewport .dxd-text-accented {
-  color: #3cbab2;
+  color: #3CBAB2;
 }
 .dx-designer-viewport .dxd-state-active .dxd-text-primary,
 .dx-designer-viewport .dxd-back-contrast .dxd-text-primary {
-  color: #f5f5f5;
+  color: #F5F5F5;
 }
 .dx-designer-viewport .dxd-back-primary {
-  background-color: #ebebeb;
+  background-color: #EBEBEB;
 }
 .dx-designer-viewport .dxd-back-primary2 {
-  background-color: #f5f5f5;
+  background-color: #F5F5F5;
 }
 .dx-designer-viewport .dxd-back-secondary {
-  background-color: #e3e3e3;
+  background-color: #E3E3E3;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-normal:hover:not(.dxd-state-no-hover) {
-  background-color: #dedede;
+  background-color: #DEDEDE;
 }
 .dx-designer-viewport .dxd-back-highlighted:hover:not(.dxd-state-no-hover) {
-  background-color: #ebebeb;
+  background-color: #EBEBEB;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected,
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected:hover {
-  background-color: #dedede;
+  background-color: #DEDEDE;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active {
-  background-color: #a0bec4;
+  background-color: #A0BEC4;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active:hover:not(.dxd-state-no-hover) {
-  background-color: #5e7b82;
+  background-color: #5E7B82;
 }
 .dx-designer-viewport .dxd-back-contrast {
-  background-color: #5e7b82;
+  background-color: #5E7B82;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active:hover,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover {
-  background-color: #405b62;
+  background-color: #405B62;
 }
 .dx-designer-viewport .dxd-back-accented {
-  background-color: #3cbab2;
+  background-color: #3CBAB2;
 }
 .dx-designer-viewport .dxd-scrollbar-color {
-  scrollbar-face-color: #e3e3e3;
-  scrollbar-track-color: #a0bec4;
-  scrollbar-arrow-color: #5e7b82;
-  -ms-scrollbar-face-color: #e3e3e3;
-  -ms-scrollbar-track-color: #a0bec4;
-  -ms-scrollbar-arrow-color: #5e7b82;
+  scrollbar-face-color: #E3E3E3;
+  scrollbar-track-color: #A0BEC4;
+  scrollbar-arrow-color: #5E7B82;
+  -ms-scrollbar-face-color: #E3E3E3;
+  -ms-scrollbar-track-color: #A0BEC4;
+  -ms-scrollbar-arrow-color: #5E7B82;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-corner {
-  background-color: #e3e3e3;
+  background-color: #E3E3E3;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar {
-  background-color: #e3e3e3;
+  background-color: #E3E3E3;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-thumb {
-  background-color: #a0bec4;
+  background-color: #A0BEC4;
 }
 .dx-designer-viewport .dxrd-scripts-editor.ace_editor,
 .dx-designer-viewport .dx-sql_editor.ace_editor,
 .dx-designer-viewport .dx-expressioneditor-textarea.ace_editor,
 .dx-designer-viewport .dx-filtereditor-ace.ace_editor {
-  background-color: #f5f5f5;
+  background-color: #F5F5F5;
 }
 .dx-designer-viewport .dxrd-scripts-editor.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-sql_editor.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-expressioneditor-textarea.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-filtereditor-ace.ace_editor .ace_gutter {
-  background-color: #ebebeb;
-  color: #28484f;
-  border-color: #e3e3e3;
+  background-color: #EBEBEB;
+  color: #28484F;
+  border-color: #E3E3E3;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab {
-  background-color: #f5f5f5;
-  border-color: #a0bec4;
-  color: #28484f;
+  background-color: #F5F5F5;
+  border-color: #A0BEC4;
+  color: #28484F;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab:hover {
-  background-color: #ebebeb;
+  background-color: #EBEBEB;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-icon {
-  color: #405b62;
+  color: #405B62;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected {
-  color: #f5f5f5;
+  color: #F5F5F5;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected,
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected:hover {
-  background-color: #a0bec4;
+  background-color: #A0BEC4;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected .dx-icon {
-  color: #f5f5f5;
+  color: #F5F5F5;
 }
 /* FilterEditor -------------------------*/
 .dx-filtereditor .dxd-filter-editor-group-back-color {
@@ -186,12 +185,13 @@
 }
 .dx-filtereditor .dxd-filter-editor-text-color {
   color: #28484f;
+  fill: #28484f;
 }
 .dx-filtereditor .dxd-filter-editor-text-color.dxd-state-selected {
-  color: #ffffff;
+  color: #FFF;
 }
 .dx-filtereditor .dxd-state-selected .dxd-filter-editor-text-color {
-  color: #ffffff;
+  color: #FFF;
 }
 .dx-filtereditor .dxd-filter-editor-add-icon-fill-color {
   fill: #5cb85c;
@@ -201,9 +201,9 @@
 }
 /* QueryBuilder -------------------------*/
 .dx-querybuilder .dxd-qb-relationship-line-color {
-  stroke: #a0bec4;
+  stroke: #A0BEC4;
 }
 .dx-querybuilder .dxdd-connector.dxd-state-selected .dxd-qb-relationship-line-color {
-  stroke: #3cbab2;
+  stroke: #3CBAB2;
 }
 /* Wizard -------------------------*/

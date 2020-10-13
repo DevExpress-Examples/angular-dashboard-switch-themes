@@ -1,11 +1,10 @@
-/**
-* DevExpress HTML/JS Analytics Core (dx-analytics.darkviolet.compact.css)
-* Version: 19.2.4
-* Build date: 2019-11-19
-* Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
-* License: https://www.devexpress.com/Support/EULAs/NetComponents.xml
+﻿/**
+* DevExpress Analytics (dist\css\dx-analytics.darkviolet.compact.css)
+* Version:  20.2.2-beta
+* Build date: Sep 29, 2020
+* Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
+* License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
-
 .dx-designer-viewport {
   /* Borders -------------------------*/
   /* Icons -------------------------*/
@@ -22,42 +21,42 @@
   border-color: #414152;
 }
 .dx-designer-viewport .dxd-border-accented {
-  border-color: #9c63ff;
+  border-color: #9C63FF;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-border-primary {
   border-color: #626978;
 }
 .dx-designer-viewport .dxd-icon-accented .dxd-icon-fill {
-  fill: #9c63ff;
+  fill: #9C63FF;
 }
 .dx-designer-viewport .dxd-icon-fill {
-  fill: #9fa4b0;
+  fill: #9FA4B0;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-icon-fill {
   fill: #626978;
 }
 .dx-designer-viewport .dxd-state-active .dxd-icon-fill,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover .dxd-icon-fill {
-  fill: #17171f;
+  fill: #17171F;
 }
 .dx-designer-viewport .dxd-text-primary {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxd-text-info {
-  color: #cfd1d6;
+  color: #CFD1D6;
 }
 .dx-designer-viewport .dxd-text-accented {
-  color: #9c63ff;
+  color: #9C63FF;
 }
 .dx-designer-viewport .dxd-state-active .dxd-text-primary,
 .dx-designer-viewport .dxd-back-contrast .dxd-text-primary {
-  color: #17171f;
+  color: #17171F;
 }
 .dx-designer-viewport .dxd-back-primary {
-  background-color: #1f1f2b;
+  background-color: #1F1F2B;
 }
 .dx-designer-viewport .dxd-back-primary2 {
-  background-color: #17171f;
+  background-color: #17171F;
 }
 .dx-designer-viewport .dxd-back-secondary {
   background-color: #353540;
@@ -66,7 +65,7 @@
   background-color: #414152;
 }
 .dx-designer-viewport .dxd-back-highlighted:hover:not(.dxd-state-no-hover) {
-  background-color: #1f1f2b;
+  background-color: #1F1F2B;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected,
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-selected:hover {
@@ -76,26 +75,26 @@
   background-color: #626978;
 }
 .dx-designer-viewport .dxd-back-highlighted.dxd-state-active:hover:not(.dxd-state-no-hover) {
-  background-color: #9fa4b0;
+  background-color: #9FA4B0;
 }
 .dx-designer-viewport .dxd-back-contrast {
-  background-color: #9fa4b0;
+  background-color: #9FA4B0;
 }
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active:hover,
 .dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover {
-  background-color: #cfd1d6;
+  background-color: #CFD1D6;
 }
 .dx-designer-viewport .dxd-back-accented {
-  background-color: #9c63ff;
+  background-color: #9C63FF;
 }
 .dx-designer-viewport .dxd-scrollbar-color {
   scrollbar-face-color: #353540;
   scrollbar-track-color: #626978;
-  scrollbar-arrow-color: #9fa4b0;
+  scrollbar-arrow-color: #9FA4B0;
   -ms-scrollbar-face-color: #353540;
   -ms-scrollbar-track-color: #626978;
-  -ms-scrollbar-arrow-color: #9fa4b0;
+  -ms-scrollbar-arrow-color: #9FA4B0;
 }
 .dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-corner {
   background-color: #353540;
@@ -110,36 +109,36 @@
 .dx-designer-viewport .dx-sql_editor.ace_editor,
 .dx-designer-viewport .dx-expressioneditor-textarea.ace_editor,
 .dx-designer-viewport .dx-filtereditor-ace.ace_editor {
-  background-color: #17171f;
+  background-color: #17171F;
 }
 .dx-designer-viewport .dxrd-scripts-editor.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-sql_editor.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-expressioneditor-textarea.ace_editor .ace_gutter,
 .dx-designer-viewport .dx-filtereditor-ace.ace_editor .ace_gutter {
-  background-color: #1f1f2b;
-  color: #ffffff;
+  background-color: #1F1F2B;
+  color: #FFFFFF;
   border-color: #353540;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab {
-  background-color: #17171f;
+  background-color: #17171F;
   border-color: #626978;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab:hover {
-  background-color: #1f1f2b;
+  background-color: #1F1F2B;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-icon {
-  color: #cfd1d6;
+  color: #CFD1D6;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected {
-  color: #17171f;
+  color: #17171F;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected,
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected:hover {
   background-color: #626978;
 }
 .dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected .dx-icon {
-  color: #17171f;
+  color: #17171F;
 }
 /* FilterEditor -------------------------*/
 .dx-filtereditor .dxd-filter-editor-group-back-color {
@@ -186,6 +185,7 @@
 }
 .dx-filtereditor .dxd-filter-editor-text-color {
   color: #000000;
+  fill: #000000;
 }
 .dx-filtereditor .dxd-filter-editor-text-color.dxd-state-selected {
   color: #000000;
@@ -204,6 +204,6 @@
   stroke: #626978;
 }
 .dx-querybuilder .dxdd-connector.dxd-state-selected .dxd-qb-relationship-line-color {
-  stroke: #9c63ff;
+  stroke: #9C63FF;
 }
 /* Wizard -------------------------*/

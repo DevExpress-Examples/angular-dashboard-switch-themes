@@ -1,8 +1,8 @@
 ﻿/**
 * DevExpress Dashboard (dx-analytics.dark-blue.css)
-* Version:  19.2.4
-* Build date: Nov 22, 2019
-* Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
+* Version:  20.2.2-beta
+* Build date: Sep 29, 2020
+* Copyright (c) 2012 - 2020 Developer Express Inc. ALL RIGHTS RESERVED
 * License: https://www.devexpress.com/Support/EULAs/universal.xml
 */
 .dx-designer-viewport {
@@ -185,6 +185,7 @@
 }
 .dx-filtereditor .dxd-filter-editor-text-color {
   color: #000000;
+  fill: #000000;
 }
 .dx-filtereditor .dxd-filter-editor-text-color.dxd-state-selected {
   color: #000000;
