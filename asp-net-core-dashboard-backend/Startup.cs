@@ -38,46 +38,51 @@ namespace AspNetCoreDashboardCustomPropertiesSample {
                         builder.AllowAnyMethod();
                     });
                 })
-                .AddMvc()
-                .AddDefaultDashboardController((configurator, serviceProvider)  => {
-                    configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(Configuration));
+                .AddMvc();
 
-                    //DashboardFileStorage dashboardFileStorage = new DashboardFileStorage(FileProvider.GetFileInfo("Data/Dashboards").PhysicalPath);
-                    //configurator.SetDashboardStorage(dashboardFileStorage);
+            services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvider) => {
+                DashboardConfigurator configurator = new DashboardConfigurator();
 
-                    configurator.SetDashboardStorage(serviceProvider.GetService<SessionDashboardStorage>());
+                configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(Configuration));
 
-                    DataSourceInMemoryStorage dataSourceStorage = new DataSourceInMemoryStorage();
+                //DashboardFileStorage dashboardFileStorage = new DashboardFileStorage(FileProvider.GetFileInfo("Data/Dashboards").PhysicalPath);
+                //configurator.SetDashboardStorage(dashboardFileStorage);
 
-                    // Registers an SQL data source.
-                    DashboardSqlDataSource sqlDataSource = new DashboardSqlDataSource("SQL Data Source", "NWindConnectionString");
-                    sqlDataSource.DataProcessingMode = DataProcessingMode.Client;
-                    SelectQuery query = SelectQueryFluentBuilder
-                        .AddTable("Categories")
-                        .Join("Products", "CategoryID")
-                        .SelectAllColumns()
-                        .Build("Products_Categories");
-                    sqlDataSource.Queries.Add(query);
-                    dataSourceStorage.RegisterDataSource("sqlDataSource", sqlDataSource.SaveToXml());
+                configurator.SetDashboardStorage(serviceProvider.GetService<SessionDashboardStorage>());
 
-                    // Registers an Object data source.
-                    DashboardObjectDataSource objDataSource = new DashboardObjectDataSource("Object Data Source");
-                    dataSourceStorage.RegisterDataSource("objDataSource", objDataSource.SaveToXml());
+                DataSourceInMemoryStorage dataSourceStorage = new DataSourceInMemoryStorage();
 
-                    // Registers an Excel data source.
-                    DashboardExcelDataSource excelDataSource = new DashboardExcelDataSource("Excel Data Source");
-                    excelDataSource.FileName = FileProvider.GetFileInfo("Data/Sales.xlsx").PhysicalPath;
-                    excelDataSource.SourceOptions = new ExcelSourceOptions(new ExcelWorksheetSettings("Sheet1"));
-                    dataSourceStorage.RegisterDataSource("excelDataSource", excelDataSource.SaveToXml());
+                // Registers an SQL data source.
+                DashboardSqlDataSource sqlDataSource = new DashboardSqlDataSource("SQL Data Source", "NWindConnectionString");
+                sqlDataSource.DataProcessingMode = DataProcessingMode.Client;
+                SelectQuery query = SelectQueryFluentBuilder
+                    .AddTable("Categories")
+                    .Join("Products", "CategoryID")
+                    .SelectAllColumns()
+                    .Build("Products_Categories");
+                sqlDataSource.Queries.Add(query);
+                dataSourceStorage.RegisterDataSource("sqlDataSource", sqlDataSource.SaveToXml());
 
-                    configurator.SetDataSourceStorage(dataSourceStorage);
+                // Registers an Object data source.
+                DashboardObjectDataSource objDataSource = new DashboardObjectDataSource("Object Data Source");
+                dataSourceStorage.RegisterDataSource("objDataSource", objDataSource.SaveToXml());
 
-                    configurator.DataLoading += (s, e) => {
-                        if(e.DataSourceName == "Object Data Source") {
-                            e.Data = Invoices.CreateData();
-                        }
-                    };
-                });
+                // Registers an Excel data source.
+                DashboardExcelDataSource excelDataSource = new DashboardExcelDataSource("Excel Data Source");
+                excelDataSource.FileName = FileProvider.GetFileInfo("Data/Sales.xlsx").PhysicalPath;
+                excelDataSource.SourceOptions = new ExcelSourceOptions(new ExcelWorksheetSettings("Sheet1"));
+                dataSourceStorage.RegisterDataSource("excelDataSource", excelDataSource.SaveToXml());
+
+                configurator.SetDataSourceStorage(dataSourceStorage);
+
+                configurator.DataLoading += (s, e) => {
+                    if (e.DataSourceName == "Object Data Source") {
+                        e.Data = Invoices.CreateData();
+                    }
+                };
+
+                return configurator;
+            });
 
             services.AddDevExpressControls();
 
@@ -101,7 +106,7 @@ namespace AspNetCoreDashboardCustomPropertiesSample {
             app.UseStaticFiles();
             app.UseSession();
             app.UseMvc(routes => {
-                routes.MapDashboardRoute("api");
+                routes.MapDashboardRoute("api", "DefaultDashboard");
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
