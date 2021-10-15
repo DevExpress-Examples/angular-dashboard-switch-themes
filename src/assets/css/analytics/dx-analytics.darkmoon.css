@@ -1,0 +1,209 @@
+/**
+* DevExpress HTML/JS Analytics Core (dx-analytics.darkmoon.css)
+* Version: 19.2.4
+* Build date: 2019-11-19
+* Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
+* License: https://www.devexpress.com/Support/EULAs/NetComponents.xml
+*/
+
+.dx-designer-viewport {
+  /* Borders -------------------------*/
+  /* Icons -------------------------*/
+  /* Text -------------------------*/
+  /* Background -------------------------*/
+  /* Customization -------------------------*/
+  /* AceEditor -------------------------*/
+  /* DevExtreme -------------------------*/
+}
+.dx-designer-viewport .dxd-border-primary {
+  border-color: #4e607f;
+}
+.dx-designer-viewport .dxd-border-secondary {
+  border-color: #596980;
+}
+.dx-designer-viewport .dxd-border-accented {
+  border-color: #3debd3;
+}
+.dx-designer-viewport .dxd-back-contrast .dxd-border-primary {
+  border-color: #8e9cb1;
+}
+.dx-designer-viewport .dxd-icon-accented .dxd-icon-fill {
+  fill: #3debd3;
+}
+.dx-designer-viewport .dxd-icon-fill {
+  fill: #afbbcd;
+}
+.dx-designer-viewport .dxd-back-contrast .dxd-icon-fill {
+  fill: #8e9cb1;
+}
+.dx-designer-viewport .dxd-state-active .dxd-icon-fill,
+.dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover .dxd-icon-fill {
+  fill: #42516c;
+}
+.dx-designer-viewport .dxd-text-primary {
+  color: #ffffff;
+}
+.dx-designer-viewport .dxd-text-info {
+  color: #d8dde4;
+}
+.dx-designer-viewport .dxd-text-accented {
+  color: #3debd3;
+}
+.dx-designer-viewport .dxd-state-active .dxd-text-primary,
+.dx-designer-viewport .dxd-back-contrast .dxd-text-primary {
+  color: #42516c;
+}
+.dx-designer-viewport .dxd-back-primary {
+  background-color: #465672;
+}
+.dx-designer-viewport .dxd-back-primary2 {
+  background-color: #42516c;
+}
+.dx-designer-viewport .dxd-back-secondary {
+  background-color: #4e607f;
+}
+.dx-designer-viewport .dxd-back-highlighted.dxd-state-normal:hover:not(.dxd-state-no-hover) {
+  background-color: #596980;
+}
+.dx-designer-viewport .dxd-back-highlighted:hover:not(.dxd-state-no-hover) {
+  background-color: #465672;
+}
+.dx-designer-viewport .dxd-back-highlighted.dxd-state-selected,
+.dx-designer-viewport .dxd-back-highlighted.dxd-state-selected:hover {
+  background-color: #596980;
+}
+.dx-designer-viewport .dxd-back-highlighted.dxd-state-active {
+  background-color: #8e9cb1;
+}
+.dx-designer-viewport .dxd-back-highlighted.dxd-state-active:hover:not(.dxd-state-no-hover) {
+  background-color: #afbbcd;
+}
+.dx-designer-viewport .dxd-back-contrast {
+  background-color: #afbbcd;
+}
+.dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active,
+.dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted.dxd-state-active:hover,
+.dx-designer-viewport .dxd-back-contrast .dxd-back-highlighted:hover {
+  background-color: #d8dde4;
+}
+.dx-designer-viewport .dxd-back-accented {
+  background-color: #3debd3;
+}
+.dx-designer-viewport .dxd-scrollbar-color {
+  scrollbar-face-color: #4e607f;
+  scrollbar-track-color: #8e9cb1;
+  scrollbar-arrow-color: #afbbcd;
+  -ms-scrollbar-face-color: #4e607f;
+  -ms-scrollbar-track-color: #8e9cb1;
+  -ms-scrollbar-arrow-color: #afbbcd;
+}
+.dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-corner {
+  background-color: #4e607f;
+}
+.dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar {
+  background-color: #4e607f;
+}
+.dx-designer-viewport .dxd-scrollbar-color ::-webkit-scrollbar-thumb {
+  background-color: #8e9cb1;
+}
+.dx-designer-viewport .dxrd-scripts-editor.ace_editor,
+.dx-designer-viewport .dx-sql_editor.ace_editor,
+.dx-designer-viewport .dx-expressioneditor-textarea.ace_editor,
+.dx-designer-viewport .dx-filtereditor-ace.ace_editor {
+  background-color: #42516c;
+}
+.dx-designer-viewport .dxrd-scripts-editor.ace_editor .ace_gutter,
+.dx-designer-viewport .dx-sql_editor.ace_editor .ace_gutter,
+.dx-designer-viewport .dx-expressioneditor-textarea.ace_editor .ace_gutter,
+.dx-designer-viewport .dx-filtereditor-ace.ace_editor .ace_gutter {
+  background-color: #465672;
+  color: #ffffff;
+  border-color: #4e607f;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab {
+  background-color: #42516c;
+  border-color: #8e9cb1;
+  color: #ffffff;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab:hover {
+  background-color: #465672;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-icon {
+  color: #d8dde4;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected {
+  color: #42516c;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected,
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected:hover {
+  background-color: #8e9cb1;
+}
+.dx-designer-viewport .dxrd-navigation-panel-wrapper .dx-tab.dx-tab-selected .dx-icon {
+  color: #42516c;
+}
+/* FilterEditor -------------------------*/
+.dx-filtereditor .dxd-filter-editor-group-back-color {
+  background-color: rgba(249, 81, 126, 0.8);
+}
+.dx-filtereditor .dxd-filter-editor-group-back-color:hover:not(.dxd-state-no-hover) {
+  background-color: rgba(249, 81, 126, 0.7);
+}
+.dx-filtereditor .dxd-filter-editor-group-back-color.dxd-state-selected {
+  background-color: #f9517e;
+}
+.dx-filtereditor .dxd-filter-editor-field-back-color {
+  background-color: rgba(61, 235, 211, 0.8);
+}
+.dx-filtereditor .dxd-filter-editor-field-back-color:hover:not(.dxd-state-no-hover) {
+  background-color: rgba(61, 235, 211, 0.7);
+}
+.dx-filtereditor .dxd-filter-editor-field-back-color.dxd-state-selected {
+  background-color: #3debd3;
+}
+.dx-filtereditor .dxd-filter-editor-parameter-back-color {
+  background-color: rgba(240, 173, 78, 0.8);
+}
+.dx-filtereditor .dxd-filter-editor-parameter-back-color:hover:not(.dxd-state-no-hover) {
+  background-color: rgba(240, 173, 78, 0.7);
+}
+.dx-filtereditor .dxd-filter-editor-parameter-back-color.dxd-state-selected {
+  background-color: #f0ad4e;
+}
+.dx-filtereditor .dxd-filter-editor-operator-back-color {
+  background-color: rgba(89, 216, 164, 0.8);
+}
+.dx-filtereditor .dxd-filter-editor-operator-back-color:hover:not(.dxd-state-no-hover) {
+  background-color: rgba(89, 216, 164, 0.7);
+}
+.dx-filtereditor .dxd-filter-editor-operator-back-color.dxd-state-selected {
+  background-color: #59d8a4;
+}
+.dx-filtereditor .dxd-filter-editor-value-back-color {
+  background-color: rgba(204, 204, 204, 0.8);
+}
+.dx-filtereditor .dxd-filter-editor-value-back-color:hover:not(.dxd-state-no-hover) {
+  background-color: rgba(204, 204, 204, 0.7);
+}
+.dx-filtereditor .dxd-filter-editor-text-color {
+  color: #000000;
+}
+.dx-filtereditor .dxd-filter-editor-text-color.dxd-state-selected {
+  color: #000000;
+}
+.dx-filtereditor .dxd-state-selected .dxd-filter-editor-text-color {
+  color: #000000;
+}
+.dx-filtereditor .dxd-filter-editor-add-icon-fill-color {
+  fill: #59d8a4;
+}
+.dx-filtereditor .dxd-filter-editor-remove-icon-fill-color {
+  fill: #f9517e;
+}
+/* QueryBuilder -------------------------*/
+.dx-querybuilder .dxd-qb-relationship-line-color {
+  stroke: #8e9cb1;
+}
+.dx-querybuilder .dxdd-connector.dxd-state-selected .dxd-qb-relationship-line-color {
+  stroke: #3debd3;
+}
+/* Wizard -------------------------*/
