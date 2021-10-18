@@ -1,7 +1,4 @@
 <!-- default badges list -->
-<<<<<<< HEAD
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/186794623/18.2.8%2B)
-=======
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/186794623/19.2.3%2B)
 >>>>>>> 19.2.3+
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828717)
