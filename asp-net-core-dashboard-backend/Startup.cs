@@ -63,23 +63,7 @@ namespace AspNetCoreDashboardCustomPropertiesSample {
                 sqlDataSource.Queries.Add(query);
                 dataSourceStorage.RegisterDataSource("sqlDataSource", sqlDataSource.SaveToXml());
 
-                // Registers an Object data source.
-                DashboardObjectDataSource objDataSource = new DashboardObjectDataSource("Object Data Source");
-                dataSourceStorage.RegisterDataSource("objDataSource", objDataSource.SaveToXml());
-
-                // Registers an Excel data source.
-                DashboardExcelDataSource excelDataSource = new DashboardExcelDataSource("Excel Data Source");
-                excelDataSource.FileName = FileProvider.GetFileInfo("Data/Sales.xlsx").PhysicalPath;
-                excelDataSource.SourceOptions = new ExcelSourceOptions(new ExcelWorksheetSettings("Sheet1"));
-                dataSourceStorage.RegisterDataSource("excelDataSource", excelDataSource.SaveToXml());
-
                 configurator.SetDataSourceStorage(dataSourceStorage);
-
-                configurator.DataLoading += (s, e) => {
-                    if (e.DataSourceName == "Object Data Source") {
-                        e.Data = Invoices.CreateData();
-                    }
-                };
 
                 return configurator;
             });
