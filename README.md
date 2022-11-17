@@ -34,8 +34,8 @@ ng serve --open
 
 ## Documentation
 
-[Themes and Styles](https://docs.devexpress.com/Dashboard/402098/web-dashboard/dashboard-component-for-angular/themes-and-styles)
+* [Themes and Styles for an Angular Application](https://docs.devexpress.com/Dashboard/402098)
 
 ## More Examples
 
-[Dashoboard for Angular - Get Started - Client-Side Dashboard Application](https://github.com/DevExpress-Examples/dashboard-angular-app)
+[Dashboard for Angular - Get Started](https://github.com/DevExpress-Examples/dashboard-angular-app-get-started)
