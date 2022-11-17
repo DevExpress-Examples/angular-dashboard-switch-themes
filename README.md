@@ -11,7 +11,7 @@ Our HTML JS Dashboard does not provide a way to switch themes in Angular applica
 For more information about the implementation, please refer to our [HTML JS Dashboard - How to switch themes/color schemes in Angular applications](https://www.devexpress.com/Support/Center/Question/Details/T741077/html-js-dashboard-how-to-switch-themes-color-schemes-in-angular-applications) KB article.
 
 <!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [app.component.ts](./dashboard-angular-app/src/app/app.component.ts)
 * [app.component.html](./dashboard-angular-app/src/app/app.component.html)
