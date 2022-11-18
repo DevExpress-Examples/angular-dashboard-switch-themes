@@ -19,7 +19,7 @@ For more information about the implementation, please refer to our [HTML JS Dash
 
 ## Quick Start
 
-In the **asp-net-core-dashboard-backend** folder run the following command:
+In the **asp-net-core-server** folder run the following command:
 
 ```
 dotnet run
