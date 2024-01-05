@@ -179,4 +179,4 @@ Follow the steps below to implement the theme-switching functionality:
 
 ## More Examples
 
-[Dashboard for Angular - Get Started](https://github.com/DevExpress-Examples/dashboard-angular-app-get-started)
+* [Dashboard for Angular - Get Started](https://github.com/DevExpress-Examples/dashboard-angular-app-get-started)
