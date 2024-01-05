@@ -5,7 +5,8 @@
 
 # HTML JS Dashboard - How to Switch Themes/Color Schemes
 
-Our HTML JS Dashboard does not provide a way to switch themes in applications using the same mechanism as in our [online demo](https://demos.devexpress.com/Dashboard/) This example demonstrates a way to implement the required functionality in an Angular application.
+Our HTML JS Dashboard does not provide a way to switch themes in applications using the same mechanism as in our [online demo](https://demos.devexpress.com/Dashboard/). This example demonstrates how to implement the required functionality in an Angular application.
+
 
 ## Files to Review
 
@@ -28,11 +29,13 @@ npm start
 ```
 ## Example Overview
 
-To implement switching themes functionality, follow the steps below:
+Follow the steps below to implement the theme-switching functionality:
+
 
 1. Remove all style registrations related to the dashboard from the *styles.css* file.
 1. Add theme CSS files from the node_modules folder to assets. See the [Angular.json](dashboard-angular-app/angular.json#L25-L40) file
-1. To dynamically switch themes, include theme CSS files into the *index.html* page. Register CSS styles in the order shown in the [Apply a Default theme](https://docs.devexpress.com/Dashboard/119299#apply-a-built-in-theme) section:
+1. To dynamically switch themes, include theme CSS files in the *index.html* page. Register CSS styles in the order shown in the [Apply a Default theme](https://docs.devexpress.com/Dashboard/119299#apply-a-built-in-theme) section:
+
 
     ```html
     <!doctype html>
@@ -61,7 +64,8 @@ To implement switching themes functionality, follow the steps below:
 
    Add DevExtreme themes as described in the following topic: [Switch Between Themes at Runtime](https://js.devexpress.com/Angular/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Switch_Between_Themes_at_Runtime).
 
-4. Handle the `onDashboardTitleToolbarUpdated` event in the *app.component.ts* file and add a popup menu to the dashboard toolbar to switch themes:
+4. Handle the `onDashboardTitleToolbarUpdated` event in the *app.component.ts* file and add a pop-up menu to the dashboard toolbar to switch themes:
+
  
     ```js  
     onDashboardTitleToolbarUpdated(args): void {  
@@ -114,7 +118,8 @@ To implement switching themes functionality, follow the steps below:
       //...
     ```  
 1. Import the themes property from the `devextreme/ui/themes` file to *app.component.ts*. This allows you to switch DevExtreme themes.
-1. Import the Document property from the `@angular/platform-browser` file to *app.component.ts*. It is also necessary to inject the static document property. This will grant you access to the document property. You will be able to switch the Dashboard and Analytics themes.
+1. Import the Document property from the `@angular/platform-browser` file to *app.component.ts*. It is also necessary to inject the static document property. This grants you access to the document property, and you can switch the Dashboard and Analytics themes.
+
 1. Use the following code to switch themes and render `dashboardControl` after a DevExtreme theme is changed:
 
     ```js
